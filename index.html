@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Интерьер</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,600&display=swap" rel="stylesheet">
+    <link type="image/x-icon" href="img/favicon.svg" rel="shortcut icon">
+    <link type="Image/x-icon" href="img/favicon.svg" rel="icon">
+</head>
+<body>
+    <!-- вся старница -->
+    <div class="container">
+        <!-- шапка -->
+        <header class="head">
+            <nav class="menu_wrapper">
+                <a href="#" class="logo_link">
+                    <h1 class="logo">
+                        <p class="first_letter">И</p>
+                        <p class="other_letters">нтерьер</p>
+                    </h1>
+                </a>
+                <div class="nav" id="menu">
+                    <a href="#"><p>Главная</p></a>
+                    <a href="#"><p>Каталог</p></a>
+                    <a href="#"><p>Блог</p></a>
+                    <a href="#"><p>Решения</p></a>
+                    <a href="#"><p>Контакты</p></a>
+                </div>
+                <div class="icons">
+                    <a href=""><img src="img/search.svg" alt="search"></a>
+                    <a href=""><img src="img/basket.svg" alt="basket"></a>
+                </div>
+                <button class="navbar_toggler" id="navbar_toggler" type="button" onclick="Show()">
+                    <img src="img/bars.png" alt="bars" width="30">                    
+                </button>
+            </nav>
+        </header>
+        <!-- основной блок -->
+        <main>
+            <div class="main">
+                <div class="menu">
+                    <div class="line"></div>
+                    <p>Каталог</p>
+                </div>
+                <div class="switcher">
+                    <p class="best">Лучшие новинки</p>
+                    <div class="switcher_nav">
+                        <a href=""><p>Мебель</p></a>
+                        <a href=""><p>Свет</p></a>
+                        <a href=""><p>Декор</p></a>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="card">
+                        <div class="chair">
+                            <div class="back">
+                                <img  class="card_img" src="img/1.svg" alt="chair1">
+                            </div>
+                        </div>
+                        <div class="choose">
+                            <div class="iconsss">
+                                <img src="img/arrows.svg" alt="refresh">
+                                <img id="image" src="img/like.svg" alt="like" onclick="imgsrc(this)">
+                                <img src="img/basket2.svg" alt="basket">
+                            </div>
+                        </div>
+                        <div class="tovar">
+                            <div class="name">
+                                <p>Кресло</p>
+                                <div class="stars">
+                                    <img src="img/star.svg" alt="star_rating">
+                                    <img src="img/star.svg" alt="star_rating">
+                                    <img src="img/star.svg" alt="star_rating">
+                                    <img src="img/star.svg" alt="star_rating">
+                                    <img src="img/star.svg" alt="star_rating">
+                                </div>
+                            </div>
+                            <div class="price">
+                                <p class="crossed">4000 ₽</p>
+                                <p>3500₽</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="chair">
+                            <div class="back">
+                                <img class="card_img" src="img/2.svg" alt="chair2">
+                            </div>
+                        </div>
+                        <div class="choose">
+                            <div class="iconsss">
+                                <img src="img/arrows.svg" alt="refresh">
+                                <img id="image" src="img/like.svg" alt="like" onclick="imgsrc(this)">
+                                <img src="img/basket2.svg" alt="basket">
+                            </div>
+                        </div>
+                        <div class="tovar">
+                            <div class="name">
+                                <p>Кресло</p>
+                                <div class="stars">
+                                    <img src="img/star.svg" alt="star_rating">
+                                    <img src="img/star.svg" alt="star_rating">
+                                    <img src="img/star.svg" alt="star_rating">
+                                    <img src="img/star.svg" alt="star_rating">
+                                    <img src="img/star.svg" alt="star_rating">
+                                </div>
+                            </div>
+                            <div class="price">
+                                <p class="crossed">3400 ₽</p>
+                                <p>3100₽</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="chair">
+                            <div class="back">
+                                <img class="card_img" src="img/3.svg" alt="flower1">
+                            </div>
+                        </div>
+                        <div class="choose">
+                            <div class="iconsss">
+                                <img src="img/arrows.svg" alt="refresh">
+                                <img id="image" src="img/like.svg" alt="like" onclick="imgsrc(this)">
+                                <img src="img/basket2.svg" alt="basket">
+                            </div>
+                        </div>
+                        <div class="tovar">
+                            <div class="name">
+                                <p>Ваза для цветов</p>
+                                <div class="stars">
+                                    <img src="img/star.svg" alt="star_rating">
+                                    <img src="img/star.svg" alt="star_rating">
+                                    <img src="img/star.svg" alt="star_rating">
+                                    <img src="img/star.svg" alt="star_rating">
+                                    <img src="img/star.svg" alt="star_rating">
+                                </div>
+                            </div>
+                            <div class="price">
+                                <p>1100₽</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="chair">
+                            <div class="back">
+                                <img class="card_img" src="img/4.svg" alt="chair3">
+                            </div>
+                        </div>
+                        <div class="choose">
+                            <div class="iconsss">
+                                <img src="img/arrows.svg" alt="refresh">
+                                <img id="image" src="img/like.svg" alt="like" onclick="imgsrc(this)">
+                                <img src="img/basket2.svg" alt="basket">
+                            </div>
+                        </div>
+                        <div class="tovar">
+                            <div class="name">
+                                <p>Стул</p>
+                                <div class="stars">
+                                    <img src="img/star.svg" alt="star_rating">
+                                    <img src="img/star.svg" alt="star_rating">
+                                    <img src="img/star.svg" alt="star_rating">
+                                    <img src="img/star.svg" alt="star_rating">
+                                    <img src="img/star.svg" alt="star_rating">
+                                </div>
+                            </div>
+                            <div class="price">
+                                <p>2300₽</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="chair">
+                            <div class="back">
+                                <img class="card_img" src="img/5.svg" alt="lamp1">
+                            </div>
+                        </div>
+                        <div class="choose">
+                            <div class="iconsss">
+                                <img src="img/arrows.svg" alt="refresh">
+                                <img id="image" src="img/like.svg" alt="like" onclick="imgsrc(this)">
+                                <img src="img/basket2.svg" alt="basket">
+                            </div>
+                        </div>
+                        <div class="tovar">
+                            <div class="name">
+                                <p>Лампа</p>
+                                <div class="stars">
+                                    <img src="img/star.svg" alt="star_rating">
+                                    <img src="img/star.svg" alt="star_rating">
+                                    <img src="img/star.svg" alt="star_rating">
+                                    <img src="img/star.svg" alt="star_rating">
+                                    <img src="img/star.svg" alt="star_rating">
+                                </div>
+                            </div>
+                            <div class="price">
+                                <p>4800₽</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="chair">
+                            <div class="back">
+                                <img class="card_img" src="img/6.svg" alt="flower2">
+                            </div>
+                        </div>
+                        <div class="choose">
+                            <div class="iconsss">
+                                <img src="img/arrows.svg" alt="refresh">
+                                <img id="image" src="img/like.svg" alt="like" onclick="imgsrc(this)">
+                                <img src="img/basket2.svg" alt="basket">
+                            </div>
+                        </div>
+                        <div class="tovar">
+                            <div class="name">
+                                <p>Ваза для цветов</p>
+                                <div class="stars">
+                                    <img src="img/star.svg" alt="star_rating">
+                                    <img src="img/star.svg" alt="star_rating">
+                                    <img src="img/star.svg" alt="star_rating">
+                                    <img src="img/star.svg" alt="star_rating">
+                                    <img src="img/star.svg" alt="star_rating">
+                                </div>
+                            </div>
+                            <div class="price">
+                                <p class="crossed">2300 ₽</p>
+                                <p>1900₽</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="chair">
+                            <div class="back">
+                                <img class="card_img" src="img/7.svg" alt="chair4">
+                            </div>
+                        </div>
+                        <div class="choose">
+                            <div class="iconsss">
+                                <img src="img/arrows.svg" alt="refresh">
+                                <img id="image" src="img/like.svg" alt="like" onclick="imgsrc(this)">
+                                <img src="img/basket2.svg" alt="basket">
+                            </div>
+                        </div>
+                        <div class="tovar">
+                            <div class="name">
+                                <p>Серый стул</p>
+                                <div class="stars">
+                                    <img src="img/star.svg" alt="star_rating">
+                                    <img src="img/star.svg" alt="star_rating">
+                                    <img src="img/star.svg" alt="star_rating">
+                                    <img src="img/star.svg" alt="star_rating">
+                                    <img src="img/star.svg" alt="star_rating">
+                                </div>
+                            </div>
+                            <div class="price">
+                                <p class="crossed">4100 ₽</p>
+                                <p>2500₽</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="chair">
+                            <div class="back">
+                                <img class="card_img" src="img/8.svg" alt="chair5">
+                            </div>
+                        </div>
+                        <div class="choose">
+                            <div class="iconsss">
+                                <img src="img/arrows.svg" alt="refresh">
+                                <img id="image" src="img/like.svg" alt="like" onclick="imgsrc(this)">
+                                <img src="img/basket2.svg" alt="basket">
+                            </div>
+                        </div>
+                        <div class="tovar">
+                            <div class="name">
+                                <p>Черный стул</p>
+                                <div class="stars">
+                                    <img src="img/star.svg" alt="star_rating">
+                                    <img src="img/star.svg" alt="star_rating">
+                                    <img src="img/star.svg" alt="star_rating">
+                                    <img src="img/star.svg" alt="star_rating">
+                                    <img src="img/star.svg" alt="star_rating">
+                                </div>
+                            </div>
+                            <div class="price">
+                                <p>3300₽</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- подвал -->
+        <footer class="footer">
+            <a href="#" class="logo_footer">
+                <p class="first_letter">И</p>
+                <p class="other_letters">нтерьер</p>
+            </a>
+            <p class="footer_large_text">Подпишитесь на новости</p>
+            <p class="footer_small_text">Оставьте свой email и вы будете получать актуальную информацию о наших акциях и новинках</p>
+            <form action="" class="form">
+                <input class="input" type="email" name="email" placeholder="Введите email">
+                <button class="button" type="submit">Подписаться</button>
+            </form>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
